@@ -1,0 +1,30 @@
+# python environement
+mini-soc-ml/.venv/
+mini-soc-ml/venv/
+__pycache__/
+*.pyc 
+
+# sensitives files
+.env 
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Temporary files
+*.log
+*.tmp 
+.ipynb_checkpoints/
+
+# Virtual machines 
+*.vmdk
+*.vdi
+*.ova
+*.ovf
+*.vmx
+*.vmsn
+
+# Operating System
+.DS_Store
+Thumbs.db
+mini-soc-ml/data/CICIDS2017/
